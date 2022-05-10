@@ -1,13 +1,14 @@
 baseURL = "https://www.evankurzman.com/"
 languageCode = "en-us"
-title = "Evan Kurzman"
+title = "Evan Kurzman's Personal Website"
 theme = "minimal"
-disqusShortname = "username" # delete this to disable disqus comments
 googleAnalytics = ""
 
 [params]
     author = "Evan Kurzman"
-    description = "enjoy!"
+    profilePic = true
+    description = "Welcome to the site, check out more about me, my work in data driven investing, or watch some old shred videos on Vimeo"
+    description1 = ""
     githubUsername = "thekurz"
     accent = "blue"
     showBorder = true
@@ -41,6 +42,11 @@ googleAnalytics = ""
     url = "/media/"
     name = "Media"
     weight = 5
+
+[[menu.main]]
+    url = "/pdfs/evankurzman.pdf/"
+    name = "Resume"
+    weight = 6
 
 # Social icons to be shown on the right-hand side of the navigation bar.
 # The "name" field should match the name of the icon in Font Awesome.
